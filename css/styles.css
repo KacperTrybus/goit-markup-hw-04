@@ -265,7 +265,7 @@ body {
 }
 .main-section-box {
   display: block;
-  background-color: #2f303a;
+  background-image: url('images/background.jpg');
 }
 .middle-text-box {
   margin: 106px 252px 30px 252px;
