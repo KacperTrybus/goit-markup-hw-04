@@ -265,8 +265,11 @@ body {
 }
 .main-section-box {
   display: block;
-  background-image: url('images/background.jpg');
+  background-color: var(--bg-color);
+  background-image: url(/images/background.jpg);
+  background-repeat: no-repeat;
 }
+
 .middle-text-box {
   margin: 106px 252px 30px 252px;
 }
