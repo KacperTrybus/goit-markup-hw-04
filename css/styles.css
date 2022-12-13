@@ -251,7 +251,7 @@ body {
 }
 .nav-box {
   display: inline-flex;
-  margin: 37px 371px 37px 93px;
+  margin: 37px 345px 37px 93px;
 }
 .mid-element-navlist {
   margin: 0px 46px;
@@ -265,11 +265,13 @@ body {
 }
 .main-section-box {
   display: block;
-  background-color: var(--bg-color);
+}
+.bg-photo {
   background-image: url(/images/background.jpg);
   background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--bg-color);
 }
-
 .middle-text-box {
   margin: 106px 252px 30px 252px;
 }
@@ -278,7 +280,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-left: 500px;
-  margin-bottom: 200px;
+  margin-bottom: 106px;
 }
 .paragraph-list-box {
   display: inline-flex;
@@ -357,4 +359,12 @@ body {
   letter-spacing: 0.03em;
   padding: 0px 24px 20px 24px;
   display: block;
+}
+/* icons */
+
+.envelope {
+  fill: var(--nr-color);
+}
+.envelope:hover {
+  fill: var(--hover-color);
 }
