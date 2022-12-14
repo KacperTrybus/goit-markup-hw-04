@@ -253,15 +253,13 @@ body {
   display: inline-flex;
   margin: 37px 345px 37px 93px;
 }
-.mid-element-navlist {
-  margin: 0px 46px;
-}
+
 .nav-list-sec-box {
   margin: 32px 12px 32px 0px;
   display: inline-flex;
 }
 .contact-mail {
-  margin-right: 50px;
+  margin-right: 30px;
 }
 .main-section-box {
   display: block;
@@ -362,9 +360,12 @@ body {
 }
 /* icons */
 
-.envelope {
+svg{
+  margin-right: 10px;
+}
+.icon-color{
   fill: var(--nr-color);
 }
-.envelope:hover {
-  fill: var(--hover-color);
+.icon-color:hover{
+  fill: var(--hover-color)
 }
