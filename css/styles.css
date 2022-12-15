@@ -280,6 +280,7 @@ body {
   display: block;
 }
 .bg-photo {
+  /* background: rgba(47, 48, 58, 0.4); */
   background-image: url(/images/background.jpg);
   background-repeat: no-repeat;
   background-position: center;
