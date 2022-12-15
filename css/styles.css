@@ -9,6 +9,7 @@
   --foot-font-color: rgb(255, 255, 255, 0.6);
   --border-portfolio: #eeeeee;
   --border-header: #ececec;
+  --icon-color: #afb1b8;
 }
 
 * {
@@ -64,7 +65,7 @@ body {
   color: white;
   text-decoration: none;
   display: inline-flex;
-  margin: 60px 15px 20px 15px;
+  margin: 60px 0px 20px 0px;
 }
 
 .logo-color {
@@ -108,6 +109,9 @@ body {
 }
 .foot-links-list {
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
 }
 .paragraph-list {
   list-style-type: none;
@@ -117,6 +121,14 @@ body {
 }
 .project-list {
   list-style-type: none;
+}
+.team-icon-list {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 18px;
 }
 .center-element-font {
   font-weight: 900;
@@ -189,7 +201,7 @@ body {
   line-height: 1.18;
   letter-spacing: 0.03em;
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 16px;
 }
 .street {
   color: white;
@@ -315,8 +327,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-
-.foot-links-box {
+.team-icons-list .foot-links-box {
   margin: 0px 0px 60px 15px;
 }
 .foot-mail {
@@ -360,12 +371,42 @@ body {
 }
 /* icons */
 
-svg{
+header svg {
   margin-right: 10px;
 }
-.icon-color{
+.icon-color {
   fill: var(--nr-color);
 }
-.icon-color:hover{
-  fill: var(--hover-color)
+.icon-color:hover {
+  fill: var(--hover-color);
+}
+
+.paragraph-list-icons {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  padding: 25px 100px 25px 100px;
+  background-color: var(--team-bg-color);
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+.team-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.team-icon:hover {
+  background-color: var(--hover-color);
+}
+.team-ic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-radius: 25%; */
+  padding: 12px;
+  fill: var(--icon-color);
+}
+.team-ic:hover {
+  fill: white;
 }
